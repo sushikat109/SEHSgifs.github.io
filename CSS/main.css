@@ -100,11 +100,11 @@ a:hover {
 /* Control buttons */
 .controls {
     text-align: right;
-    margin: 20px;
+    margin-right: 20px;
 }
 
 .controls button {
-    padding: 8px 14px;
+    padding: 0px 14px;
     margin-left: 5px;
     cursor: pointer;
     border: none;
