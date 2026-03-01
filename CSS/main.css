@@ -63,6 +63,9 @@ a:active {
 }
 .logoimg:hover{
     background-color: transparent;
+    outline-style:solid;
+    outline-width: 0.2rem;
+    outline-color: #73839f;
 }
 
 /* SEHS link */
@@ -87,6 +90,10 @@ a:active {
 .Home:hover {
     background-color: #3a4353;
     margin-left: 5px;
+    
+    outline-style:solid;
+    outline-width: 0.2rem;
+    outline-color: #73839f;
 }
 
 .Home:visited {
@@ -97,6 +104,9 @@ a:active {
 .buttons a:hover {
     margin-right: 5px;
     background-color: #3a4353;
+    outline-style:solid;
+    outline-width: 0.2rem;
+    outline-color: #73839f;
 }
 
 a:visited {
@@ -115,7 +125,7 @@ a:visited {
 
 .controls button{
     padding: 0.2rem 1rem;
-    margin-left: 1px;
+    margin-left: 0.1rem;
     cursor: pointer;
     border: none;
     background-color: #313741;
@@ -129,8 +139,9 @@ a:visited {
     border: none;
     background-color: #3a4353;
     color: #dbe7f5;
-    outline-width: 3px;
-    outline-color: red;
+    outline-style:solid;
+    outline-width: 0.2rem;
+    outline-color: #73839f;
 }
 .controls p{
     line-height: 0%;
@@ -138,9 +149,9 @@ a:visited {
 
 /* Pinterest-style masonry */
 .gallery {
-    column-count: 5; /* default */
+    column-count: 4; /* default */
     column-gap: 0.4rem;
-    margin: 0.4rem 0.8rem;
+    margin: 0.6rem 0.8rem;
 }
 
 .gallery img {
