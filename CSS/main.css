@@ -162,8 +162,10 @@ a:visited {
     display: block;
 }
 .gallery img:hover {
-    transform: scale(1.1);
-    transition: 0.3s;
+    transform: scale(1);
+    outline-style:solid;
+    outline-width: 0.2rem;
+    outline-color: #ffffff;
 }
 
 .gallery img,
