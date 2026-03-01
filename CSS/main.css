@@ -12,7 +12,7 @@ h1 {
     font-size: 40px;
     text-align: center;
     line-height: 70%;
-    margin-top: 30px;
+    margin-top: 7%;
 
 }
 
@@ -41,62 +41,65 @@ a:active {
 /* ---------- NAVBAR ---------- */
 .navbar {
     display: flex;
-    align-items:stretch;
-    padding-right: 20px;
-    margin-top: 0%;
-    /* THIS restores space after Contact */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
     background-color: #313741;
 }
 
+/* Left side (logo + SEHS) */
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 0rem;
+}
 /* logo image */
-#logoimg {
-    height: 40px;
-    width: 40px;
-    padding: 6px 10px 2px 10px;
+.logoimg {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.logoimg:hover{
+    background-color: transparent;
 }
 
-/* CC Home */
+/* SEHS link */
 .Home {
-    margin-right: auto;
-    /* pushes buttons right */
-    padding: 15px 10px;
-    /* space after CC */
-    color: #dbe7f5;
-}
-
-.Home :hover {
-    color: rgb(151, 162, 174);
-    background-color: rgb(59, 66, 75);
-}
-
-.Home:visited {
+    padding: 0.8rem 1rem;
     color: #dbe7f5;
 }
 
 /* buttons container */
 .buttons {
     display: flex;
+    gap: 0rem;
 }
 
 /* navbar links */
 .buttons a {
-    padding: 15px 10px;
+    padding: 0.8rem 1rem;
     background-color: rgb(49, 55, 65);
     color: #dbe7f5;
 }
+
+.Home:hover {
+    background-color: rgb(59, 66, 75);
+    margin-left: 5px;
+}
+
+.Home:visited {
+    color: #dbe7f5;
+}
+/* navbar links */
+
 .buttons a:hover {
     margin-right: 5px;
-
+    background-color: rgb(59, 66, 75);
 }
 
 a:visited {
     color: #dbe7f5;
 }
 
-a:hover {
-    color: rgb(239, 249, 255);
-    background-color: rgb(59, 66, 75);
-}
 #background {
     background-image: "../Images/logo2.png";
 }
@@ -104,11 +107,11 @@ a:hover {
 /* Control buttons */
 .controls {
     text-align: right;
-    margin-right: 20px;
+    margin-right: 5%;
 }
 
 .controls button{
-    padding: 0px 14px;
+    padding: 0px 3%;
     margin-left: 1px;
     cursor: pointer;
     border: none;
