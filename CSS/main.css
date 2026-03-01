@@ -11,7 +11,7 @@ h1 {
     font-weight: bold;
     font-size: 40px;
     text-align: center;
-    line-height: 50%;
+    line-height: 70%;
 }
 
 p {
@@ -104,8 +104,8 @@ a:hover {
     margin-right: 20px;
 }
 
-.controls button {
-    padding: 8px 14px;
+.controls button{
+    padding: 0px 14px;
     margin-left: 5px;
     cursor: pointer;
     border: none;
@@ -114,6 +114,9 @@ a:hover {
     border-radius: 6px;
     font-family: 'Tajawal';
     font-size: 200%;
+}
+.controls p{
+    line-height: 0%;
 }
 
 /* Pinterest-style masonry */
