@@ -39,8 +39,9 @@ a:active {
 /* ---------- NAVBAR ---------- */
 .navbar {
     display: flex;
-    align-items: center;
+    align-items:stretch;
     padding-right: 20px;
+    margin-top: 0%;
     /* THIS restores space after Contact */
     background-color: #313741;
 }
@@ -106,14 +107,14 @@ a:hover {
 
 .controls button{
     padding: 0px 14px;
-    margin-left: 5px;
+    margin-left: 1px;
     cursor: pointer;
     border: none;
     background-color: #313741;
     color: #dbe7f5;
     border-radius: 6px;
     font-family: 'Tajawal';
-    font-size: 200%;
+    font-size: 150%;
 }
 .controls p{
     line-height: 0%;
