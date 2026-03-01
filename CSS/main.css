@@ -45,7 +45,7 @@ a:active {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 1rem;
+    padding: 0rem 1rem;
     background-color: #313741;
 }
 
@@ -59,6 +59,7 @@ a:active {
 .logoimg {
     height: 2.5rem;
     width: 2.5rem;
+    padding-top: 0.4rem;
 }
 .logoimg:hover{
     background-color: transparent;
@@ -66,7 +67,7 @@ a:active {
 
 /* SEHS link */
 .Home {
-    padding: 0.8rem 1rem;
+    padding: 1rem 1rem 0.8rem 1rem;
     color: #dbe7f5;
 }
 
@@ -78,7 +79,7 @@ a:active {
 
 /* navbar links */
 .buttons a {
-    padding: 0.8rem 1rem;
+    padding: 1rem 1rem 0.8rem 1rem;
     background-color: rgb(49, 55, 65);
     color: #dbe7f5;
 }
